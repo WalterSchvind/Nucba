@@ -49,4 +49,5 @@ p:first-child{
 }
 div{
     border: dashed 5px red
+    /* display inline block para cambiar de elemento en linea a en bloque */
 }
