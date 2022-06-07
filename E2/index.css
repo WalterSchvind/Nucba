@@ -1,22 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 
-body{
-    padding: 0;
-    margin: 0;
-}
+
 header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 100%;
+    
     flex-wrap: wrap;
-    background-color: darkgrey;
+    
 
 
 }
 .logo{
-height: 40%;
-width: 10%;
+height: 5%;
+width: 9%;
 }
 .list-navegacion{
     width: 90%;
@@ -41,7 +38,7 @@ a{
 li,a{
 font-family: "Montserrat",sans-serif;
 font-weight: 500;
-font-size: 1.3em;
+font-size: 1.2em;
 
 color: rgb(105, 40, 167);
 
@@ -49,6 +46,76 @@ color: rgb(105, 40, 167);
 
 body
 {
-    height: 100vh;
+    
+    background-color: darkgrey;
+    
+}
+.content{
+    
+    font-family: "Montserrat",sans-serif;
+    font-weight: 500;
     background-color: antiquewhite;
+    border-radius: 30px;
+    padding: 10px;
+    margin: 5px;
+    width: 97,9%;
+    
+}   
+.title{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+    
+}
+h1{
+    width: 50%;
+    margin-left: 40%;
+}
+.info-list{
+    width: 30%;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.info-list button{
+    padding: 9px 25px;
+    border:4px; 
+    background-color: #508991;;
+    border-radius: 50px;
+    
+}
+.info-list a
+{
+    color: black;
+}
+.title p{
+    width: 50%;
+    margin-left: 40px;
+}
+.presentation{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    
+}
+.presentation h2{
+    width: 80%;
+    margin-left: 38%;
+
+}
+.presentation p
+{
+    width: 50%;
+}
+
+.presentation img
+{
+    height: 20%;
+    width: 40%;
+    border-radius: 10px;
 }
